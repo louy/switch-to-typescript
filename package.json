@@ -4,12 +4,13 @@
   "description": "Switch your JavaScript project to TypeScript with one command.",
   "main": "index.js",
   "scripts": {
+    "build": "tsc -p .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-	"bin": {
-		"switch-to-typescript": "cli"
-	},
-	"preferGlobal": true,
+  "bin": {
+    "switch-to-typescript": "cli"
+  },
+  "preferGlobal": true,
   "keywords": [
     "typescript",
     "javascript",
@@ -22,5 +23,11 @@
     "tsd": "^0.6.5",
     "tslint": "^3.2.0",
     "typescript": "^1.7.5"
+  },
+  "dependencies": {
+    "bluebird": "^2.10.2",
+    "chalk": "^1.1.1",
+    "dashdash": "^1.10.1",
+    "progress": "^1.1.8"
   }
 }
