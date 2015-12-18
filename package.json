@@ -1,0 +1,22 @@
+{
+  "name": "switch-to-typescript",
+  "version": "0.0.1",
+  "description": "Switch your JavaScript project to TypeScript with one command.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript",
+    "javascript",
+    "refactor",
+    "cli"
+  ],
+  "author": "Louy Alakkad <louy@alakkad.me>",
+  "license": "LGPL-3.0",
+  "devDependencies": {
+    "tsd": "^0.6.5",
+    "tslint": "^3.2.0",
+    "typescript": "^1.7.5"
+  }
+}
